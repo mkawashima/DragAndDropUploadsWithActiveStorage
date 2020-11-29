@@ -9,6 +9,10 @@ RUN apt-get update -qq && \
     apt-get install -y imagemagick && \
     apt-get install -y vim
 
+RUN apt-get install -y nodejs npm
+RUN npm install n -g
+RUN n stable
+
 RUN apt-get install -y locales
 RUN echo "ja_JP.UTF-8 UTF-8" > /etc/locale.gen && \
   locale-gen ja_JP.UTF-8 && \

@@ -112,7 +112,7 @@ after_bundle do
   add_sidekiq
   add_foreman
   copy_templates
-  #add_tailwind
+  add_tailwind
   add_friendly_id
 
   # Migrate

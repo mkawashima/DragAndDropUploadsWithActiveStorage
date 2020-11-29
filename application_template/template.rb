@@ -6,8 +6,7 @@ Instructions: $ rails new myapp -d <postgresql, mysql, sqlite3> -m template.rb
 =end
 
 def source_paths
-  Array(super) +
-      [File.join(File.expand_path(File.dirname(__FILE__)))]
+  [File.expand_path(File.dirname(__FILE__))]
 end
 
 def config_db

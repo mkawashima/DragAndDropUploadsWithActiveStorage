@@ -60,5 +60,5 @@ end
 
 gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'friendly_id', '~> 5.4', '>= 5.4.1'
-gem 'sidekiq', '~> 6.1', '>= 6.1.2'
+gem 'sidekiq', '~> 6.2'
 gem 'name_of_person', '~> 1.1', '>= 1.1.1'
